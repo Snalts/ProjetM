@@ -1,6 +1,4 @@
-import java.util.List;
-
-public class Statistique {
+public class Effet {
 
 	private int valeur;
 
@@ -11,4 +9,5 @@ public class Statistique {
 	public void setValeur(int valeur) {
 		this.valeur = valeur;
 	}
+
 }
