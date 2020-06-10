@@ -1,14 +1,18 @@
-import java.util.List;
-
 public class Statistique {
 
 	private int valeur;
 
-	public int getValeur() {
-		return valeur;
+	public Statistique(int val)
+	{
+		this.valeur = val;
 	}
 
-	public void setValeur(int valeur) {
-		this.valeur = valeur;
+	public void appliquerEffet(Effet e) {
+		this.valeur e.calculerStat(this.valeur);
+	}
+
+	public void retirerEffet(Effet e)
+	{
+		this.valeur -= e.calculerStat(this.valeur);
 	}
 }

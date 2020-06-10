@@ -1,6 +1,6 @@
 public class EspritVitesse extends Esprit {
     
-    public EspritVitesse(Effet effet, String nom){
+    public EspritVitesse(EffetPourcentage effet, String nom){
         this.effet = effet;
         this.nom = nom;
     }
