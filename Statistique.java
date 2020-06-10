@@ -8,11 +8,11 @@ public class Statistique {
 	}
 
 	public void appliquerEffet(Effet e) {
-		this.valeur e.calculerStat(this.valeur);
+		this.valeur = e.calculerStat(this.valeur);
 	}
 
 	public void retirerEffet(Effet e)
 	{
-		this.valeur -= e.calculerStat(this.valeur);
+		this.valeur = e.calculerStat(this.valeur);
 	}
 }
